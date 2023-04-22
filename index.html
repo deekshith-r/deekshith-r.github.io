@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale.o">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>  
+    <div id="header">   
+        <div class="container">
+            <nav>
+                <img src="images/lo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <h3><p>Front-End Developer/UI-Designer</p></h3>
+            <h1>Hi,I'm <span>Deekshith R</span><h1>
+                <h6>Enthusiastic Artificial Intelligence and Machine Learning Engineer, Seeking to deliver AI solutions.</h6>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------------------------------about---------------------------------------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/fr.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <h3>I'm Deekshith R</h3>
+                <p style="text-align:justify">Currently Pursuing BTech in  Artificial Intelligence and Machine Learning Engineer in Alvas Institute of Engineering and Technology with an objective to secure a challenging front-end developer position that utilizes my technical expertise in developing interactive and responsive web applications. 
+                    I aim to leverage my skills in HTML,CSS and various front-end frameworks to create innovative & creative user experiences and help in business growth. 
+                    With a strong attention to detail and a passion for staying up-to-date with emerging technologies, 
+                    Committed to delivering high-quality work that meets the needs of clients and users alike.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><h2>User Interface</span></h2></li>
+                            <div class="skill-per" per="80%" style="max-width:80%"></div>
+                            <li><span><h2>HTML</h2></span></li>
+                            <div class="skill-per" per="85%" style="max-width:85%"></div>
+                            <li><span><h2>CSS</h2></span></li>
+                            <div class="skill-per" per="65%" style="max-width:65%"></div>
+                            <li><span><h2>Python</h2></span></li>
+                            <div class="skill-per" per="70%" style="max-width:70%"></div>
+                            <li><span><h2>DBMS</h2></span></li>
+                            <div class="skill-per" per="60%" style="max-width:60%"></div>
+                            <li><span><h2>CTI-Analyst</h2></span></li>
+                            <div class="skill-per" per="75%" style="max-width:70%"></div>
+                          
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span><h2>User Interface</h2></span><h5>Designing Web</h5></li>
+                            <li><span><h2>Associate Intern</h2></span><h5>Intern @ Emertxe</h5></li>
+                            <li><span><h2>Intern</h2></span><h5>Intern @ YBI Foundation</h5></li>
+    
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span><h2>BTech in Artificial Intelligence and Machine Learning</h2></span><h5>Pursuing in Alvas Institute of Engineering and Technology</h5></li>
+                            <li><span><h2>Class 12</h2></span><h5>Mahesh Pre University College</h5></h2></li>
+                            <li><span><h2>Class 10</h2></span><h5>Parshwanatha Education Society    </h5></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------------------------------------------services---------------------------------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>"Experienced web designer with a passion for clean and functional design, 
+                    specializing in user-centered approaches and modern technologies"</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>UI Design</h2>
+                <p> "UI designer creating intuitive interfaces with a focus on user experience and visual appeal"</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>Python Developer</h2>
+                <p> "Python developer with good problem solving, Passionate about open-source technologies and continuous learning"</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+            <div>
+                <h2>CTI-Analyst</h2>
+                <p>"Cybersecurity expert specialized in intelligence gathering, threat analysis, and incident response"</p>
+                <!--<a href="#">Learn More</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------------------------portfolio------------------------------------------------------------------------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Youtube.jpg">
+                <div class="layer">
+                    <h3>Youtube clone</h3>
+                    <p style="text-align:justify">Developed YouTube clone with a modern and visually appealing interface that is easy to navigate and use. 
+                        #UI #UX #VideoStreaming #VideoPlayer #WatchList</p>
+                    <!---<a href="work"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/netflix.webp">
+                <div class="layer">
+                    <h3>Netflix clone</h3>
+                    <p style="text-align:justify">Developed a Netflix clone with a stunning and intuitive user interface! #NetflixClone #UI #UX #StreamingService #WatchList #BingeWatch</p>
+                    <!---<a href="work"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/crms.png">
+                <div class="layer">
+                    <h3>Criminal Record Management System</h3>
+                    <p style="text-align:justify">Developed an online web application to preserve records of arrested criminals, utilizing HTML, CSS, PHP, and MySql for database management.</p>
+                    <!---<a href="work"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/lib.png">
+                <div class="layer">
+                    <h3>Library Management System</h3>
+                    <p style="text-align:justify">Developed an Python automates library operations, Including book borrowing and returning management to enhance efficiency and access to information..</p>
+                    <!---<a href="work"><i class="fa-solid fa-up-right-from-square"></i></a>-->
+                </div>
+            </div>        
+        </div>
+        <!---<a href="#portfolio" class="btn">See more</a> --->    
+    </div>
+</div>
+
+<!----------------------------------------------------------contact--------------------------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>deekshithr2002@gmail.com</p>
+                <p> <i class="fa-solid fa-location-dot"></i> Chitradurga,Karnataka</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/deekshith-r-008176207/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/deekshith-r"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/deekshith.r.90/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/d_b__official/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download="" class="btn btn2">Download CV</a>
+                
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Made with <a class="fa-solid fa-heart"></a> by Deekshith R</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    document.getElementById(tabname).classList.add("active-tab");
+    event.currentTarget.classList.add("active-link");
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby04zvGPf2NWNoe8RHpjfyKIJxwJZvGIyvPmNs72CHlVztEAA0NxGU2q9pLuMjcwomuUA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=''
+         },5000)
+         form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <script>
+    var sidemenu =document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
